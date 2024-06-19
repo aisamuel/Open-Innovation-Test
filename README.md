@@ -58,9 +58,9 @@ pip install -r requirements.txt
     - Open the PostgreSQL command line or pgAdmin and create a new database and user.
 
     ```sql
-    CREATE DATABASE image_data;
+    CREATE DATABASE images_data;
     CREATE USER myuser WITH ENCRYPTED PASSWORD 'mypassword';
-    GRANT ALL PRIVILEGES ON DATABASE image_data TO myuser;
+    GRANT ALL PRIVILEGES ON DATABASE images_data TO myuser;
     ```
 
 2. **Create the Table**:
@@ -228,7 +228,7 @@ pip install -r requirements.txt
 Set the `DATABASE_URL` environment variable in your local environment:
 
 ```bash
-export DATABASE_URL='postgresql://myuser:mypassword@localhost/image_data'
+export DATABASE_URL='postgresql://myuser:mypassword@localhost/images_data'
 ```   
 
 ## Example SQL Query for Creating the Table
