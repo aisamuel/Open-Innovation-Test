@@ -1,12 +1,12 @@
 ```markdown
-# Flask Application with PostgreSQL
+# Image Resize Application with PostgreSQL
 
-This project demonstrates how to set up and run a Flask application with PostgreSQL as the database locally.
+This project demonstrates how to set up and run the Flask image resize application with PostgreSQL as the database locally.
 
 ## Project Structure
 
 ```
-my_flask_app/
+Open-Innovation-Test/
 ├── app.py
 ├── resize_image.py
 ├── test_app.py
@@ -31,8 +31,8 @@ my_flask_app/
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your_username/your_repo_name.git
-cd your_repo_name
+git clone https://github.com/aisamuel/Open-Innovation-Test
+cd Open-Innovation-Test
 ```
 
 ### 2. Set Up the Virtual Environment
