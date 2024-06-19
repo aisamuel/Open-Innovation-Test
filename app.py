@@ -53,7 +53,7 @@ def get_image_frame():
     filtered_data = load_from_postgres(depth_min, depth_max)
 
     if filtered_data.empty:
-        return jsonify({"error": "No data found for the given depth range"}), 404
+        return jsonify({"error": "No data found for the given image depth range"}), 404
 
     image_data = filtered_data.iloc[:, 1:]  # Exclude the depth column
     color_mapped_img = apply_color_map(image_data)
